@@ -278,7 +278,7 @@ footer .footer-id img { display: block; height: 52px; width: auto; max-width: 10
 
 /* small "5 minute break" rows between talks */
 .timeline li.gap { padding-top: 0; padding-bottom: 0; }
-.timeline li.gap::before { width: 9px; height: 9px; left: -6px; top: .6rem; border-width: 2px; background: var(--white); border-color: var(--line); }
-.timeline li.gap p { margin: 0; font-size: .85rem; color: var(--muted); font-style: italic; }
+.timeline li.gap::before { width: 7px; height: 7px; left: -5px; top: .42rem; border-width: 1.5px; background: var(--white); border-color: var(--line); }
+.timeline li.gap p { margin: 0; font-size: .72rem; line-height: 1.3; color: var(--muted); font-style: italic; }
 /* talk length line */
 .timeline p.dur { margin-top: .05rem; font-size: .85rem; }
