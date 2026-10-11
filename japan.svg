@@ -1,0 +1,77 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 420' role='img' aria-label='Japan: Mount Fuji and a red sun, a torii gate in a lake, and cherry blossoms'>
+<defs>
+ <linearGradient id='jsky' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#F9D3DC'/><stop offset='.6' stop-color='#FDEEF1'/><stop offset='1' stop-color='#FFF8F9'/></linearGradient>
+ <linearGradient id='fuji' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#3A4C8C'/><stop offset='1' stop-color='#223067'/></linearGradient>
+ <linearGradient id='lake' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#C9D3EC'/><stop offset='1' stop-color='#9FB0DA'/></linearGradient>
+</defs>
+<rect width='600' height='420' fill='url(#jsky)'/>
+<circle cx='150' cy='118' r='46' fill='#BC002D'/>
+<path d='M30,330 C150,302 220,206 262,132 L318,132 C360,206 430,302 560,330 Z' fill='url(#fuji)'/>
+<path d='M262,132 L318,132 L342,172 L326,164 L312,182 L297,165 L284,180 L270,164 L246,174 Z' fill='#FFFFFF'/>
+<path d='M0,330 C80,318 150,322 210,326 C320,332 420,318 600,326 L600,336 L0,336 Z' fill='#2C3A72'/>
+<rect y='334' width='600' height='86' fill='url(#lake)'/>
+<path d='M60,356 h120 M240,372 h90 M90,392 h70' stroke='#FFFFFF' stroke-opacity='.6' stroke-width='2.5' stroke-linecap='round'/>
+<rect x='415.5' y='234' width='10.5' height='118' fill='#BC002D'/>
+<rect x='504' y='234' width='10.5' height='118' fill='#BC002D'/>
+<path d='M390,218 Q465,228 540,218 L544,208 Q465,218 386,208 Z' fill='#1B2133'/>
+<rect x='396' y='224' width='138' height='9' fill='#BC002D'/>
+<rect x='405' y='254' width='120' height='8' fill='#BC002D'/>
+<rect x='461' y='233' width='8' height='21' fill='#BC002D'/>
+<g transform='translate(0,704) scale(1,-1)'>
+<rect x='415.5' y='234' width='10.5' height='118' fill='#BC002D' fill-opacity='0.2'/>
+<rect x='504' y='234' width='10.5' height='118' fill='#BC002D' fill-opacity='0.2'/>
+<path d='M390,218 Q465,228 540,218 L544,208 Q465,218 386,208 Z' fill='#1B2133' fill-opacity='0.2'/>
+<rect x='396' y='224' width='138' height='9' fill='#BC002D' fill-opacity='0.2'/>
+<rect x='405' y='254' width='120' height='8' fill='#BC002D' fill-opacity='0.2'/>
+<rect x='461' y='233' width='8' height='21' fill='#BC002D' fill-opacity='0.2'/></g>
+<path d='M600,10 C560,26 520,44 486,62 C470,70 452,74 430,72 M520,44 C512,64 514,86 506,104 M560,26 C570,52 572,80 560,112' stroke='#5A3A3E' stroke-width='5' fill='none' stroke-linecap='round'/>
+<circle cx='560' cy='30.1' r='6.8' fill='#F7C6D2'/>
+<circle cx='569.4' cy='36.9' r='6.8' fill='#F7C6D2'/>
+<circle cx='565.8' cy='48' r='6.8' fill='#F7C6D2'/>
+<circle cx='554.2' cy='48' r='6.8' fill='#F7C6D2'/>
+<circle cx='550.6' cy='36.9' r='6.8' fill='#F7C6D2'/>
+<circle cx='560' cy='40' r='3.5' fill='#C2185B'/>
+<circle cx='530' cy='53.9' r='5.6' fill='#F3AFC3'/>
+<circle cx='537.7' cy='59.5' r='5.6' fill='#F3AFC3'/>
+<circle cx='534.8' cy='68.6' r='5.6' fill='#F3AFC3'/>
+<circle cx='525.2' cy='68.6' r='5.6' fill='#F3AFC3'/>
+<circle cx='522.3' cy='59.5' r='5.6' fill='#F3AFC3'/>
+<circle cx='530' cy='62' r='2.9' fill='#C2185B'/>
+<circle cx='498' cy='39' r='6.2' fill='#F7C6D2'/>
+<circle cx='506.6' cy='45.2' r='6.2' fill='#F7C6D2'/>
+<circle cx='503.3' cy='55.3' r='6.2' fill='#F7C6D2'/>
+<circle cx='492.7' cy='55.3' r='6.2' fill='#F7C6D2'/>
+<circle cx='489.4' cy='45.2' r='6.2' fill='#F7C6D2'/>
+<circle cx='498' cy='48' r='3.2' fill='#C2185B'/>
+<circle cx='470' cy='72.8' r='5' fill='#F3AFC3'/>
+<circle cx='476.8' cy='77.8' r='5' fill='#F3AFC3'/>
+<circle cx='474.2' cy='85.8' r='5' fill='#F3AFC3'/>
+<circle cx='465.8' cy='85.8' r='5' fill='#F3AFC3'/>
+<circle cx='463.2' cy='77.8' r='5' fill='#F3AFC3'/>
+<circle cx='470' cy='80' r='2.6' fill='#C2185B'/>
+<circle cx='585' cy='81.9' r='5.6' fill='#F7C6D2'/>
+<circle cx='592.7' cy='87.5' r='5.6' fill='#F7C6D2'/>
+<circle cx='589.8' cy='96.6' r='5.6' fill='#F7C6D2'/>
+<circle cx='580.2' cy='96.6' r='5.6' fill='#F7C6D2'/>
+<circle cx='577.3' cy='87.5' r='5.6' fill='#F7C6D2'/>
+<circle cx='585' cy='90' r='2.9' fill='#C2185B'/>
+<circle cx='445' cy='51.7' r='4.3' fill='#F7C6D2'/>
+<circle cx='451' cy='56.1' r='4.3' fill='#F7C6D2'/>
+<circle cx='448.7' cy='63.1' r='4.3' fill='#F7C6D2'/>
+<circle cx='441.3' cy='63.1' r='4.3' fill='#F7C6D2'/>
+<circle cx='439' cy='56.1' r='4.3' fill='#F7C6D2'/>
+<circle cx='445' cy='58' r='2.2' fill='#C2185B'/>
+<circle cx='512' cy='88.8' r='5' fill='#F7C6D2'/>
+<circle cx='518.8' cy='93.8' r='5' fill='#F7C6D2'/>
+<circle cx='516.2' cy='101.8' r='5' fill='#F7C6D2'/>
+<circle cx='507.8' cy='101.8' r='5' fill='#F7C6D2'/>
+<circle cx='505.2' cy='93.8' r='5' fill='#F7C6D2'/>
+<circle cx='512' cy='96' r='2.6' fill='#C2185B'/>
+<circle cx='548' cy='111.7' r='4.3' fill='#F3AFC3'/>
+<circle cx='554' cy='116.1' r='4.3' fill='#F3AFC3'/>
+<circle cx='551.7' cy='123.1' r='4.3' fill='#F3AFC3'/>
+<circle cx='544.3' cy='123.1' r='4.3' fill='#F3AFC3'/>
+<circle cx='542' cy='116.1' r='4.3' fill='#F3AFC3'/>
+<circle cx='548' cy='118' r='2.2' fill='#C2185B'/>
+<rect width='600' height='420' fill='none' stroke='#16224A' stroke-opacity='.08' stroke-width='2'/>
+</svg>
