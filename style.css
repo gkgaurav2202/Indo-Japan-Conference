@@ -275,3 +275,8 @@ footer .footer-id img { display: block; height: 52px; width: auto; max-width: 10
 /* one-line title: the big heading above the boxes */
 #register .sec-head { max-width: none; }
 #register .sec-head h2 { white-space: nowrap; font-size: max(1rem, min(clamp(1.9rem, 4.2vw, 2.7rem), calc((100vw - 2.5rem) / 16.4))); }
+
+/* small "5 minute break" rows between talks */
+.timeline li.gap { padding-top: 0; padding-bottom: 0; }
+.timeline li.gap::before { width: 9px; height: 9px; left: -6px; top: .6rem; border-width: 2px; background: var(--white); border-color: var(--line); }
+.timeline li.gap p { margin: 0; font-size: .85rem; color: var(--muted); font-style: italic; }
