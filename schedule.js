@@ -8,13 +8,15 @@
   var BREAK = 5;         // short break after each talk
   var TEA = 30;          // tea break
   var LUNCH = 90;        // lunch break
+  var LUNCH_START = '13:00';   // lunch always starts at this time
 
   /* ---------- BUILDING BLOCKS (do not change) ---------- */
   // event('Title', minutes, 'class')  - minutes can also be an end time such as '17:00'
   // class: 'main' = key event (crimson), 'break' = tea (saffron), 'lunch' = lunch (green), '' = plain
   function event(title, mins, cls) { return { type: 'event', title: title, mins: mins, cls: cls || '' }; }
-  function tea()   { return event('Tea break', TEA, 'break'); }
-  function lunch() { return event('Lunch break', LUNCH, 'lunch'); }
+  // tea and lunch follow a talk directly (no 5 minute break before them); lunch starts at LUNCH_START
+  function tea()   { var e = event('Tea break', TEA, 'break'); e.noBreakBefore = true; return e; }
+  function lunch() { var e = event('Lunch break', LUNCH, 'lunch'); e.noBreakBefore = true; e.start = LUNCH_START; return e; }
   // talk('Speaker name', 'Title of the talk', 'page-id')  - the third part is optional: it links the name to talks.html#page-id
   function talk(speaker, title, link) { return { type: 'talk', speaker: speaker, title: title, link: link || '' }; }
 
@@ -91,12 +93,17 @@
         rows += '<li><time>' + toTime(t) + ' – ' + toTime(end) + '</time><div><h3>Talk ' + talkNumber + ': ' + name +
                 (it.title ? '<span class="ttl"> - ' + esc(it.title) + '</span>' : '') +
                 '</h3><p class="dur">' + TALK + ' min talk + ' + DISCUSSION + ' min discussion</p></div></li>';
-        if (i < day.items.length - 1) {            // short break, only if something follows
+        var next = day.items[i + 1];
+        if (next && !next.noBreakBefore) {          // short break, but not before tea or lunch
           rows += '<li class="gap"><div></div><div><p>' + BREAK + ' minute break</p></div></li>';
           end += BREAK;
         }
         t = end;
       } else {
+        if (it.start) {                              // an item with a fixed start time (lunch)
+          if (t > toMin(it.start) && window.console) console.warn('Schedule: "' + it.title + '" on ' + day.title + ' should start at ' + it.start + ', but the item before it runs until ' + toTime(t) + '.');
+          t = toMin(it.start);
+        }
         var stop = (typeof it.mins === 'string') ? toMin(it.mins) : t + it.mins;
         rows += '<li' + (it.cls ? ' class="' + it.cls + '"' : '') + '><time>' + toTime(t) + ' – ' + toTime(stop) +
                 '</time><div><h3>' + esc(it.title) + '</h3></div></li>';
