@@ -36,81 +36,11 @@
 <section style="padding-bottom:1rem">
   <div class="wrap">
 
-    <nav class="daynav" aria-label="Jump to a day">
-      <a href="#day-1">Day 1, 15 December</a>
-      <a href="#day-2">Day 2, 16 December</a>
-      <a href="#day-3">Day 3, 17 December</a>
-    </nav>
-
-    <!--
-      EDIT THE SCHEDULE BELOW.
-      Each <li> is one event. Classes:
-        (none) = talk   break = tea break   lunch = lunch   main = key event
-        gap = the small "5 minute break" line (put one after each talk)
-      Each talk row shows one line: speaker name · title · talk number.
-      Replace "Speaker name" and "Title to be announced" when you know them.
-      Copy a whole <li>...</li> block to add more rows.
-    -->
-
-    <!-- DAY 1 -->
-    <div class="day" id="day-1">
-      <div class="sec-head" style="margin-bottom:1.4rem"><h2>Day 1, 15 December</h2></div>
-      <ol class="timeline">
-        <li class="main"><time>09:45 – 10:00</time><div><h3>Inauguration and welcome</h3></div></li>
-        <li><time>10:00 – 10:45</time><div><h3>Talk 1: Speaker name<span class="ttl"> - Title to be announced</span></h3><p class="dur">40 min talk + 5 min discussion</p></div></li>
-        <li class="gap"><div></div><div><p>5 minute break</p></div></li>
-        <li><time>10:50 – 11:35</time><div><h3>Talk 2: Speaker name<span class="ttl"> - Title to be announced</span></h3><p class="dur">40 min talk + 5 min discussion</p></div></li>
-        <li class="gap"><div></div><div><p>5 minute break</p></div></li>
-        <li class="break"><time>11:40 – 12:10</time><div><h3>Tea break</h3></div></li>
-        <li><time>12:10 – 12:55</time><div><h3>Talk 3: Speaker name<span class="ttl"> - Title to be announced</span></h3><p class="dur">40 min talk + 5 min discussion</p></div></li>
-        <li class="gap"><div></div><div><p>5 minute break</p></div></li>
-        <li class="lunch"><time>13:00 – 14:30</time><div><h3>Lunch break</h3></div></li>
-        <li><time>14:30 – 15:15</time><div><h3>Talk 4: Speaker name<span class="ttl"> - Title to be announced</span></h3><p class="dur">40 min talk + 5 min discussion</p></div></li>
-        <li class="gap"><div></div><div><p>5 minute break</p></div></li>
-        <li class="break"><time>15:20 – 15:50</time><div><h3>Tea break</h3></div></li>
-        <li><time>15:50 – 16:35</time><div><h3>Talk 5: Speaker name<span class="ttl"> - Title to be announced</span></h3><p class="dur">40 min talk + 5 min discussion</p></div></li>
-        <li class="gap"><div></div><div><p>5 minute break</p></div></li>
-        <li><time>16:40 – 17:40</time><div><h3>Poster Session</h3></div></li>
-      </ol>
+       <!-- The days, times and talks are built by schedule.js. Edit them there. -->
+    <div id="schedule">
+      <noscript><p>Please turn on JavaScript to see the schedule.</p></noscript>
     </div>
-
-    <!-- DAY 2 -->
-    <div class="day" id="day-2">
-      <div class="sec-head" style="margin-bottom:1.4rem"><h2>Day 2, 16 December</h2></div>
-      <ol class="timeline">
-        <li><time>10:00 – 10:45</time><div><h3>Talk 1: Speaker name<span class="ttl"> - Title to be announced</span></h3><p class="dur">40 min talk + 5 min discussion</p></div></li>
-        <li class="gap"><div></div><div><p>5 minute break</p></div></li>
-        <li><time>10:50 – 11:35</time><div><h3>Speaker name <span class="ttl">· Title to be announced</span> <span class="no">· Talk 7</span></h3><p class="dur">40 min talk + 5 min discussion</p></div></li>
-        <li class="gap"><div></div><div><p>5 minute break</p></div></li>
-        <li class="break"><time>11:40 – 12:10</time><div><h3>Tea break</h3></div></li>
-        <li><time>12:10 – 12:55</time><div><h3>Speaker name <span class="ttl">· Title to be announced</span> <span class="no">· Talk 8</span></h3><p class="dur">40 min talk + 5 min discussion</p></div></li>
-        <li class="gap"><div></div><div><p>5 minute break</p></div></li>
-        <li class="lunch"><time>13:00 – 14:30</time><div><h3>Lunch break</h3></div></li>
-        <li class="main"><time>14:30 – 15:30</time><div><h3>Open discussion</h3></div></li>
-      </ol>
-    </div>
-
-    <!-- DAY 3 -->
-    <div class="day" id="day-3">
-      <div class="sec-head" style="margin-bottom:1.4rem"><h2>Day 3, 17 December</h2></div>
-      <ol class="timeline">
-        <li><time>10:00 – 10:45</time><div><h3>Speaker name <span class="ttl">· Title to be announced</span> <span class="no">· Talk 9</span></h3><p class="dur">40 min talk + 5 min discussion</p></div></li>
-        <li class="gap"><div></div><div><p>5 minute break</p></div></li>
-        <li><time>10:50 – 11:35</time><div><h3>Speaker name <span class="ttl">· Title to be announced</span> <span class="no">· Talk 10</span></h3><p class="dur">40 min talk + 5 min discussion</p></div></li>
-        <li class="gap"><div></div><div><p>5 minute break</p></div></li>
-        <li class="break"><time>11:40 – 12:10</time><div><h3>Tea break</h3></div></li>
-        <li><time>12:10 – 12:55</time><div><h3>Speaker name <span class="ttl">· Title to be announced</span> <span class="no">· Talk 11</span></h3><p class="dur">40 min talk + 5 min discussion</p></div></li>
-        <li class="gap"><div></div><div><p>5 minute break</p></div></li>
-        <li class="lunch"><time>13:00 – 14:30</time><div><h3>Lunch break</h3></div></li>
-        <li><time>14:30 – 15:15</time><div><h3>Speaker name <span class="ttl">· Title to be announced</span> <span class="no">· Talk 12</span></h3><p class="dur">40 min talk + 5 min discussion</p></div></li>
-        <li class="gap"><div></div><div><p>5 minute break</p></div></li>
-        <li class="break"><time>15:20 – 15:50</time><div><h3>Tea break</h3></div></li>
-        <li><time>15:50 – 16:35</time><div><h3>Speaker name <span class="ttl">· Title to be announced</span> <span class="no">· Talk 13</span></h3><p class="dur">40 min talk + 5 min discussion</p></div></li>
-        <li class="gap"><div></div><div><p>5 minute break</p></div></li>
-        <li class="main"><time>16:40 – 17:00</time><div><h3>Closing remarks</h3></div></li>
-      </ol>
-    </div>
-
+    <script src="schedule.js"></script>
     <div class="legend" aria-hidden="true">
       <span><i style="background:var(--indigo-2)"></i>Talk</span>
       <span><i style="background:var(--saffron)"></i>Tea break</span>
