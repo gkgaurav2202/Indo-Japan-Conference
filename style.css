@@ -278,8 +278,8 @@ footer .footer-id img { display: block; height: 52px; width: auto; max-width: 10
 
 /* small "5 minute break" rows between talks */
 .timeline li.gap { padding-top: 0; padding-bottom: 0; }
-.timeline li.gap::before { width: 9px; height: 9px; left: -6px; top: .34rem; border-width: 1.5px; background: var(--white); border-color: var(--line); }
-.timeline li.gap p { margin: 0; font-size: 1rem; line-height: 1.3; color: 434C61; font-style: italic; }
+.timeline li.gap::before { width: 9px; height: 10px; left: -6px; top: .34rem; border-width: 1.5px; background: var(--white); border-color: var(--line); }
+.timeline li.gap p { margin: 0; font-size: 1.3rem; line-height: 1.3; color: 434C61; font-style: italic; }
 .timeline p.dur { margin-top: .05rem; font-size: .92rem; color: #434C61; }
 .timeline h3 .ttl { font-weight: 400; }
 .timeline h3 .no { font-weight: 400; font-size: .85em; color: var(--muted); }
