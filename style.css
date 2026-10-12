@@ -285,14 +285,16 @@ footer .footer-id img { display: block; height: 52px; width: auto; max-width: 10
 .timeline h3 .no { font-weight: 400; font-size: .85em; color: var(--muted); }
 
 /* India and Japan pictures filling the whole home page title section (Japan on the left, India on the right) */
+/* one panorama (Japan on the left, India on the right) behind the home page title; on phones, two stacked pictures */
 .hero-pics { position: absolute; inset: 0; z-index: -4; pointer-events: none; }
-.hero-pics img { position: absolute; top: 0; height: 100%; width: 64%; object-fit: contain; }
-.hero-pics .pic-india { right: 0; object-position: right bottom; background: #E98B5A; }
-.hero-pics .pic-japan { left: 0; object-position: right bottom; background: #F9D3DC; transform: scaleX(-1); -webkit-mask-image: linear-gradient(to left, #000 60%, transparent); mask-image: linear-gradient(to left, #000 60%, transparent); }
-.hero-pics::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to right, transparent 34%, rgba(22, 34, 74, .3) 50%, transparent 66%), linear-gradient(to right, rgba(22, 34, 74, .68) 0%, rgba(22, 34, 74, .6) 45%, rgba(22, 34, 74, .38) 75%, rgba(22, 34, 74, .3) 100%); }
+.hero-pics img { position: absolute; }
+.hero-pics .pic-scene { inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 60% bottom; }
+.hero-pics .pic-india, .hero-pics .pic-japan { display: none; }
+.hero-pics::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to right, rgba(22, 34, 74, .66) 0%, rgba(22, 34, 74, .56) 45%, rgba(22, 34, 74, .34) 72%, rgba(22, 34, 74, .26) 100%); }
 @media (max-width: 700px) {
+  .hero-pics .pic-scene { display: none; }
+  .hero-pics .pic-india, .hero-pics .pic-japan { display: block; left: 0; width: 100%; height: 50%; object-fit: contain; object-position: center bottom; }
+  .hero-pics .pic-japan { top: 0; background: #F9D3DC; -webkit-mask-image: linear-gradient(to bottom, #000 45%, transparent 100%); mask-image: linear-gradient(to bottom, #000 45%, transparent 100%); }
+  .hero-pics .pic-india { bottom: 0; background: #E98B5A; -webkit-mask-image: linear-gradient(to top, #000 45%, transparent 100%); mask-image: linear-gradient(to top, #000 45%, transparent 100%); }
   .hero-pics::after { background: rgba(22, 34, 74, .55); }
-  .hero-pics img { left: 0; right: auto; width: 100%; height: 50%; object-position: center bottom; }
-  .hero-pics .pic-japan { top: 0; transform: none; -webkit-mask-image: linear-gradient(to bottom, #000 45%, transparent 100%); mask-image: linear-gradient(to bottom, #000 45%, transparent 100%); }
-  .hero-pics .pic-india { top: auto; bottom: 0; -webkit-mask-image: linear-gradient(to top, #000 45%, transparent 100%); mask-image: linear-gradient(to top, #000 45%, transparent 100%); }
 }
