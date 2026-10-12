@@ -46,8 +46,7 @@
         talk('Speaker name', 'Title to be announced'),
         tea(),
         talk('Speaker name', 'Title to be announced'),
-        lunch(),
-        event('Open discussion', 60, 'main')
+        lunch()
       ]
     },
     {
