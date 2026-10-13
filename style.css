@@ -293,3 +293,7 @@ footer .footer-id img { display: block; height: 52px; width: auto; max-width: 10
   .hero:not(.slim) { padding-bottom: calc(56.25vw + 2rem); }
   .hero-pics::after { background: linear-gradient(to top, rgba(22, 34, 74, .2) 0, rgba(22, 34, 74, .2) 56.25vw, rgba(22, 34, 74, .62) calc(56.25vw + 3.5rem), rgba(22, 34, 74, .62) 100%); }
 }
+@media (min-width: 1300px) {
+  .hero-pics::before { content: ""; position: absolute; inset: -60px; background: url("title.svg") center / cover no-repeat; filter: blur(36px); }
+  .hero-pics img { inset: 0 auto 0 50%; width: auto; height: 100%; transform: translateX(-50%); object-fit: fill; -webkit-mask-image: linear-gradient(to right, transparent 0, #000 12%, #000 95%, transparent 100%); mask-image: linear-gradient(to right, transparent 0, #000 12%, #000 95%, transparent 100%); }
+}
