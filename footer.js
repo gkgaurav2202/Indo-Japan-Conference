@@ -11,7 +11,6 @@
       </div>
       <img src="DST.svg" alt="">
       <img src="imsc.svg" alt="">
-      <img src="KAKENHI.svg" alt="">
     </div>
   </div>
 `;
