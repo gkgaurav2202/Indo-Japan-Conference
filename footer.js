@@ -16,3 +16,9 @@
   </div>
 `;
 })();
+// line saying that Claude was used
+(function () {
+  var f = document.getElementById('site-footer');
+  if (!f || f.querySelector('.footer-note')) return;
+  f.insertAdjacentHTML('beforeend', '<div class="wrap"><p class="footer-note">This website was created with the assistance of Claude, an AI assistant by Anthropic.</p></div>');
+})();
