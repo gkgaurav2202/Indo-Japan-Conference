@@ -10,7 +10,7 @@
     ['Schedule',   'schedule.html'],
     ['Talks',      'talks.html'],
  //   ['Photos',     'photos.html'],
-    ['Register',   'index.html#register'],
+    ['Register',   'index.html#register']
   ];
 
   var header = document.getElementById('site-header');
