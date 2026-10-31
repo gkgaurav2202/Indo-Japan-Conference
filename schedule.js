@@ -46,7 +46,8 @@
         talk('Speaker name', 'Title to be announced'),
         tea(),
         talk('Speaker name', 'Title to be announced'),
-        lunch()
+        lunch(),
+        talk('Speaker name', 'Title to be announced')
       ]
     },
     {
