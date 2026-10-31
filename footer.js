@@ -6,7 +6,7 @@
   <div class="wrap">
     <div class="footer-id">
       <div>
-        <strong>Indo-Japan Conference</strong><br>
+        <strong>L-functions and Multiple Zeta functions</strong><br>
         15–17 December 2026
       </div>
       <img src="DST.svg" alt="">
@@ -16,6 +16,8 @@
   </div>
 `;
 })();
+
+
 // line saying that Claude was used
 (function () {
   var f = document.getElementById('site-footer');
