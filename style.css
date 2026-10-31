@@ -269,8 +269,7 @@ footer strong { color: #fff; font-family: var(--display); font-size: 1.1rem; }
 footer em { color: #FFD7A6; }
 /* logos next to the conference name */
 footer .footer-id { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; }
-footer .footer-id img { display: block; height: 52px; width: auto; max-width: 100%; }/* one-line title: the big heading above the boxes */
-#register .sec-head { max-width: none; }
+footer .footer-id img { display: block; height: 52px; width: auto; max-width: 100%; background: #fff; padding: 4px 10px; border-radius: 3px; }#register .sec-head { max-width: none; }
 #register .sec-head h2 { white-space: nowrap; font-size: max(1rem, min(clamp(1.9rem, 4.2vw, 2.7rem), calc((100vw - 2.5rem) / 16.4))); }
 
 /* small "5 minute break" rows between talks */
