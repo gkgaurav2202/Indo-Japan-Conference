@@ -59,8 +59,6 @@ a { color: inherit; }
 .nav ul::-webkit-scrollbar { display: none; }
 .nav li a { color: #D5DBF0; text-decoration: none; font-size: 1.02rem; white-space: nowrap; padding: .3rem 0; border-bottom: 2px solid transparent; }
 .nav li a:hover, .nav li a[aria-current="page"] { color: #fff; border-color: var(--saffron); }
-@media (max-width: 1000px) { .brand { display: none; } }
-
 /* ---------- Hero (home and page banners) ---------- */
 .hero {
   position: relative; overflow: hidden; isolation: isolate;
@@ -271,8 +269,7 @@ footer strong { color: #fff; font-family: var(--display); font-size: 1.1rem; }
 footer em { color: #FFD7A6; }
 /* logos next to the conference name */
 footer .footer-id { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; }
-footer .footer-id img { display: block; height: 52px; width: auto; max-width: 100%; background: #fff; padding: 4px 10px; border-radius: 3px; }
-/* one-line title: the big heading above the boxes */
+footer .footer-id img { display: block; height: 52px; width: auto; max-width: 100%; }/* one-line title: the big heading above the boxes */
 #register .sec-head { max-width: none; }
 #register .sec-head h2 { white-space: nowrap; font-size: max(1rem, min(clamp(1.9rem, 4.2vw, 2.7rem), calc((100vw - 2.5rem) / 16.4))); }
 
