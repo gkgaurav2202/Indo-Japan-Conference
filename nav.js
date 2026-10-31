@@ -2,7 +2,7 @@
    To add, remove or rename a menu item, edit the list below. Every page updates.
    The page you are on is highlighted automatically. */
 (function () {
-  var brand = 'Indo-Japan Conference';
+  var brand = 'L-functions and Multiple Zeta functions';
 
   var items = [
     ['Home',       'index.html'],
